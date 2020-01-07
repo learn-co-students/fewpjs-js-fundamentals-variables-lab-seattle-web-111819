@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2020-01-06T19:03:58.288Z",
+    "end": "2020-01-06T19:04:00.818Z",
+    "duration": 2530
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"before all\" hook",
+      "fullTitle": "\"before all\" hook",
+      "duration": 2522,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.\n    at Object.done (node_modules/mocha-jsdom/index.js:70:7)\n    at /Users/panyuewei/mod3/fewpjs-js-fundamentals-variables-lab-seattle-web-111819/node_modules/jsdom/lib/jsdom.js:325:18\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)",
+        "message": "Timeout of 2000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves."
+      }
+    }
+  ],
+  "passes": []
+}
